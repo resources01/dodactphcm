@@ -281,8 +281,10 @@
         // sticky menu activation
         if ($(window).scrollTop() > 180) {
             $('.header-area').addClass('sticky-navbar');
+            $('#sub-header').addClass('sub-header-scroll');
         } else {
             $('.header-area').removeClass('sticky-navbar');
+            $('#sub-header').removeClass('sub-header-scroll');
         }
         // back to top button fade in / fade out
         if ($(window).scrollTop() > 1000) {

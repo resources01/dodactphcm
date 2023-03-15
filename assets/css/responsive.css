@@ -484,7 +484,7 @@
         color: #fff;
     }
     .home-3 .support-nav-area {
-        padding: 13px 0px;
+        padding: 0px;
     }
     .service-section.home-3 div[class*='col-']:nth-child(2n) {
         margin-bottom: 30px;
@@ -534,10 +534,10 @@
         text-align: left;
     }
     .home-3 .slicknav_nav {
-        top: 100px;
+        top: 83px;
     }
     .home-3.sticky-navbar .slicknav_nav {
-        top: 84px;
+        top: 62px;
     }
     .home-3 .slicknav_menu .slicknav_icon-bar {
         background-color: #fff;

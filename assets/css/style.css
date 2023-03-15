@@ -1217,7 +1217,8 @@ ul.search-cart-area {
 }
 
 .header-area.sticky-navbar .navbar-area {
-    padding: 30px 0px;
+    /* padding: 30px 0px; */
+    padding: 20px 0px;
 }
 
 .header-area.sticky-navbar .navbar-area::before {
@@ -2662,10 +2663,8 @@ footer h4::after {
 
 .home-3 .support-nav-area {
     padding: 23px 0px;
-    /* background-color: #10508b; */
-    background-image: linear-gradient(to right,  #10508b, #1569b8,  #0a4072);
-    border-bottom: 1px solid #2966a7;
-    border-top: 1px solid #2966a7;
+    background-color: #0d4272;
+    border-bottom: 1px solid #568dc0;
 }
 
 .home-3 .search-cart-area li:first-child::after {
@@ -3161,7 +3160,7 @@ footer h4::after {
 .breadcrumb-area {
     position: relative;
     padding: 60px 0px 60px;
-    margin-top: 157px;
+    margin-top: 159px;
 }
 
 .breadcrumb-area .breadcrumb-overlay {
@@ -5886,4 +5885,34 @@ a.cartbtn.shop:hover {
 .shipping-address .form-element input,
 .shipping-address .form-element select {
     border: 1px solid #f1f1f1;
+}
+
+
+/* sub header */
+.sub-header {
+    background: #0b3a66;
+    position: fixed;
+    max-width: 100%;
+    margin-top: 14px;
+    z-index: 99;
+    position: absolute;
+    top: 116px;
+    left: 0;
+}
+.btn-header{
+    background: #fe8c12;
+    border-color: #fe8c12;
+}
+.sub-header .btn-header{
+    margin: 3px 0;
+}
+
+.sub-header-scroll {
+    background: #0b3a66;
+    position: fixed;
+    z-index: 99;
+    max-width: 100%;
+    margin-top: 14px;
+    top: 48px;
+    left: 0;
 }
