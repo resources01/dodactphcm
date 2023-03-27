@@ -128,7 +128,7 @@ button.boxed-btn {
     font-size: 14px;
     color: #fff;
     font-weight: 600;
-    padding: 15px 35px;
+    padding: 15px 35px !important;
     text-align: center;
     border-radius: 3px;
     background-color: #fe8c12;
@@ -137,6 +137,28 @@ button.boxed-btn {
     -webkit-transition: .5s;
     -o-transition: .5s;
     transition: .5s;
+}
+a.view-more {
+    display: inline-block;
+    position: relative;
+    text-transform: uppercase;
+    font-size: 14px;
+    color: #fff;
+    font-weight: 600;
+    padding: 10px 30px !important;
+    text-align: center;
+    border-radius: 3px;
+    background-color: #fe8c12;
+    border: none;
+    text-decoration: none;
+    -webkit-transition: .5s;
+    -o-transition: .5s;
+    transition: .5s;
+    margin-top: 10px !important;
+}
+a.view-more:hover {
+    background-color: #fff;
+    color: #fe8c12;
 }
 
 a.boxed-btn:hover,
@@ -1556,6 +1578,7 @@ ul.search-cart-area {
 
 .single-service p.service-para {
     margin-bottom: 13px;
+    height: 108px;
 }
 
 .service-carousel.owl-carousel .owl-item {
@@ -2702,7 +2725,7 @@ footer h4::after {
     background-color: #f9f9f9;
     display: -webkit-box;
     display: -ms-flexbox;
-    display: flex;
+    display: block;
     padding: 45px 30px 30px;
     -webkit-box-align: start;
     -ms-flex-align: start;
@@ -2746,7 +2769,7 @@ footer h4::after {
 }
 
 .service-section.home-3 .single-service:hover::before {
-    border-top: 201px solid #fe8c12;
+    border-top: 342px solid #fe8c12;
     border-right: 362px solid transparent;
 }
 
@@ -2766,14 +2789,19 @@ footer h4::after {
 }
 
 .service-section.home-3 .single-service:hover::after {
-    border-bottom: 200px solid #fe8c12;
+    border-bottom: 342px solid #fe8c12;
     border-left: 360px solid transparent;
 }
 
 .service-section.home-3 .single-service .service-txt {
     padding: 0px;
+    height: 150px;
 }
-
+.card-view-more{
+    background: #f9f9f9;
+    width: 100%;
+    display: block;
+}
 .service-section.home-3 .single-service .icon-wrapper {
     margin-right: 22px;
     margin-top: -10px;
