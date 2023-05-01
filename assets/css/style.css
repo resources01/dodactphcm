@@ -1580,6 +1580,7 @@ ul.search-cart-area {
 .single-service p.service-para {
     margin-bottom: 13px;
     height: 108px;
+    
 }
 
 .service-carousel.owl-carousel .owl-item {
@@ -1632,7 +1633,7 @@ ul.search-cart-area {
     font-size: 24px;
     color: #183650;
     margin-bottom: 15px;
-    height: 80px;
+    height: 30px;
 }
 
 .service-section .single-service .service-txt a.readmore {
